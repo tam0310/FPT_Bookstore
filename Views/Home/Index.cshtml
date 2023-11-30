@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @{
+        var role = ViewData["Role"];
+        if(role == null)
+        {
+        <h1>
+        Welcome!
+        </h1>    
+        }
+        else if (role.ToString() == "1")
+        {
+            <h1>Welcome Admin!</h1>
+        }
+        else if (role.ToString() == "2")
+        {
+            <h1>Welcome Store Owner!</h1>
+        }
+        else
+        {
+            <h1>Welcome Customer!</h1>
+        }
+    }
+</div>
