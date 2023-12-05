@@ -1,0 +1,5 @@
+SELECT TOP (1000) [publisherID]
+      ,[publisherName]
+      ,[publisherAddress]
+      ,[publisherEmail]
+  FROM [MainBookManagement].[dbo].[tblPublisher]

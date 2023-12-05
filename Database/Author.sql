@@ -1,0 +1,5 @@
+SELECT TOP (1000) [authorID]
+      ,[authorName]
+      ,[authorBiography]
+      ,[authorEmail]
+  FROM [MainBookManagement].[dbo].[tblAuthor]
